@@ -1,12 +1,15 @@
 import "./App.css";
 import Accordion from "./components/accordion";
+import ModalTest from "./components/custom-modal-popup/modal-test";
 import TabTest from "./components/custom-tabs/tab-test";
+import GithubProfileFinder from "./components/github-profile-finder";
 import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/random-color";
 import ScrollIndicator from "./components/scroll-indicator";
+import SearchAutocomplete from "./components/search-autocomplete-with-api";
 import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
@@ -42,7 +45,16 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
       {/* Custom Tabs Component */}
-      <TabTest />
+      {/* <TabTest /> */}
+
+      {/* Custom Modal Component */}
+      {/* <ModalTest /> */}
+
+      {/* Github Profile Finder */}
+      {/* <GithubProfileFinder /> */}
+
+      {/* Search Auto Complete */}
+      <SearchAutocomplete />
     </>
   );
 }
